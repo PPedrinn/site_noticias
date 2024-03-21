@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: brown;
+    padding: 16px 0;
+}
+
+header .Containers{
+    display: flex;
+}
+
+header nav {
+    display: inline;
+}
+
+.Containers {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles article {
+    width: 20%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Containers h2 {
+    font-size: 44px;
+}
+
+section h2 {
+    font-size: 32px;
+}
